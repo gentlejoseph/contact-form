@@ -8,19 +8,19 @@
                     <label>Name</label>
                     <input type="text" class="form-control" formControlName="name">
                     <span  class="error" *ngIf="contactForm?.controls['name'].invalid && 
-                    contactForm?.controls['name'].touched">required</span>
+                    contactForm?.controls['name'].touched">Required</span>
                 </div>
                 <div class="form-group col-md-12">
                     <label>Email</label>
                     <input type="text" class="form-control" formControlName="email">
                     <span  class="error" *ngIf="contactForm?.controls['email'].invalid && 
-                    contactForm?.controls['email'].touched">invalid</span>
+                    contactForm?.controls['email'].touched">Invalid email</span>
                 </div>
                 <div class="form-group col-md-12">
                     <label>Phone</label>
                     <input type="text" class="form-control" formControlName="phone">
                     <span  class="error" *ngIf="contactForm?.controls['phone'].invalid && 
-                    contactForm?.controls['phone'].touched">required</span>
+                    contactForm?.controls['phone'].touched">Required</span>
                 </div>
                 <div class="form-group col-md-12">
                     <label>Street Address</label>
@@ -32,13 +32,13 @@
                     <label>Suburb</label>
                     <input type="text" class="form-control" formControlName="suburb">
                     <span  class="error" *ngIf="contactForm?.controls['suburb'].invalid && 
-                    contactForm?.controls['suburb'].touched">required</span>
+                    contactForm?.controls['suburb'].touched">Required</span>
                 </div>
                 <div class="form-group col-md-12">
                     <label>Postcode</label>
                     <input type="text" class="form-control" formControlName="postCode">
                     <span  class="error" *ngIf="contactForm?.controls['postCode'].invalid && 
-                    contactForm?.controls['postCode'].touched">required</span>
+                    contactForm?.controls['postCode'].touched">Required</span>
                 </div>
                 <div class="form-group col-md-12">
                     <button class="btn btn-default" type="button" (click)="cancelForm()">Clear</button>
