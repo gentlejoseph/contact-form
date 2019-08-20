@@ -1,0 +1,9 @@
+{
+    "id" : 1,
+    "name": "gentle",
+    "email": "gentle@gmail.com",
+    "phone": "0414192177",
+    "streetAddress": "streetAddress",
+    "suburb": "Macquarie Park",
+    "postCode": "2113"
+}
